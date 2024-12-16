@@ -1,0 +1,37 @@
+{
+  "name": "base-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.62.7",
+    "@wagmi/cli": "^2.1.21",
+    "@web3modal/ethers": "^5.1.11",
+    "@web3modal/wagmi": "^4.2.3",
+    "ethers": "^6.13.4",
+    "firebase": "^11.1.0",
+    "mongodb": "^6.12.0",
+    "next": "15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "viem": "^2.21.55",
+    "wagmi": "^2.14.1",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
